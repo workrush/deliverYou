@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Deliveroo</title>
+  <meta content="" name="description">
+
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!--<link href="assets/vendor/aos/aos.css" rel="stylesheet">-->
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/css/consum.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <style>
+  .dropbtn {
+    background-color: #fff;
+    color: #222;
+    padding: 9px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+	border-radius:4px;
+}
+
+/* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #fff;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+  </style>
+
+
+</head>
+
+<body>
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="hero align-items-center">
+    <!-- ======= Header ======= -->
+    <div class="hero-banner"></div>
+    <div class="hero-camp-banner">
+      <div>
+        <div class="header container">
+          <div class="header-top">
+            <div class="header-top-inner">
+              <a href="index.html" class="logo d-flex align-items-center">
+                <img src="assets/img/logo.png" alt="">
+                <span>Deliveroo</span>
+              </a>
+              <ul class="nav-menu">
+                <li>
+
+                  <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
+                            viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049">
+                            <path
+                              d="M4.88398 7.11612L3.11621 8.88389L12.0001 17.7678L20.884 8.88389L19.1162 7.11612L12.0001 14.2322L4.88398 7.11612Z">
+                            </path>
+                          </svg></span><span
+                          class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span
+                            class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Partner
+                            with us</span></span></button>
+</div>
+<div id="myDropdown" class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+
+                <li>
+                  <a class="ccl-985cb265c6f6a9c1" href="/login?redirect=%2F"><span class="ccl-c7e8470a1e905a95"><span
+                        class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
+                          viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049">
+                          <path
+                            d="M3 10L5 8.44444V5H9.42857L12 3L21 10V21H3V10ZM14 19H19V10.9782L12 5.53372L5 10.9782V19H10V14H14V19Z">
+                          </path>
+                        </svg></span><span
+                        class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span
+                          class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Sign
+                          up or log in</span></span></span></a>
+                </li>
+                <li>
+                  <div class="ccl-87125845a8a1011e">
+                    <button type="button" class="ccl-96b19cfbe8b53b1f">
+                      <span class="ccl-c7e8470a1e905a95">
+                        <span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
+                            viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049">
+                            <path
+                              d="M4.88398 7.11612L3.11621 8.88389L12.0001 17.7678L20.884 8.88389L19.1162 7.11612L12.0001 14.2322L4.88398 7.11612Z">
+                            </path>
+                          </svg></span><span
+                          class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span
+                            class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Partner
+                            with us</span></span></span></button>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="HomepageHeroCampaignImage-39c66914098931c0">
+        <div class="HomepageHeroCampaignImage-b61d0aac6293dfb8">
+          <div class="HomepageHeroCampaignImage-1278279b3d0af821">
+            <h2 class="ccl-2a4b5924e2237093 ccl-29aecca02620e7cc ccl-9ff886da4b0592ae">We are #HereToDeliver</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 d-flex flex-column justify-content-center">
+            <h1 data-aos="fade-up" class="heading-banner">Your favourite restaurants and takeaways, delivered to your
+              door</h1>
+            <div class="banner">
+              <label style="padding:8px 0 15px;">Enter your address to find local restaurants</label>
+              <form action="" method="post">
+                <input type="email" name="email" class="banner-control">
+                <input type="submit" value="Subscribe" class="banner-butn">
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
+            <img src="assets/img/hero-img.png" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  </div>
+
+  </div><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>What's on the menu?
+          </h2>
+
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-5">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image.jpg); background-repeat:no-repeat;">
+
+              <h3>Comfort food</h3>
+
+            </div>
+            <div class="box-text">
+              Classic, comforting dishes that always hit the spot.
+              <span>View Comfort food →</span>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image.jpg); background-repeat:no-repeat;">
+
+
+              <h3>Desserts and sweet dishes</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+
+          <div class="col-lg-7">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image1.jpg); background-repeat:no-repeat;">
+
+              <h3>Office Catering</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image2.jpg); background-repeat:no-repeat;">
+
+
+              <h3>Healthy</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+
+          <div class="col-lg-5">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image3.jpg); background-repeat:no-repeat;">
+
+              <h3>Only on Deliveroo</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image4.jpg); background-repeat:no-repeat;">
+
+
+              <h3>Big flavours, small prices</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+          <div class="col-lg-7">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image5.jpg); background-repeat:no-repeat;">
+
+              <h3>Our picks</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+          <div class="col-lg-5">
+            <div class="box" style="background-image:url(assets/img/menu-tag-image6.jpg); background-repeat:no-repeat;">
+
+
+              <h3>Deliveroo Editions</h3>
+
+            </div>
+            <div class="box-text">Sweet delights that are a tasty addition to any day. <span>View Desserts and sweet
+                dishes →</span></div>
+          </div>
+
+
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2>Loved by you, delivered by us</h2>
+
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/38606/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1582978786">
+              <h3>Pho</h3>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/12041/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1584443075">
+
+              <h3>Wagamama</h3>
+
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/308441/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1626084749">
+              <h3> PizzaExpress</h3>
+              <p>With a menu full of favourites – our signature Dough Balls with garlic butter, the pepperoni-packed
+                Classic American Hot or the thinner, crispier Romana Padana with goat's cheese, as well our new vegan
+                pizzas and bundles - you’ll be spoilt for choice.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/30031/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1584361740">
+
+              <h3>Five Guys</h3>
+              <p>Five Guys is how burgers & fries are meant to be. High-quality grain-fed beef, hand cut fries & as many
+                toppings as you like in any combination you like. And that’s before you get to creating your own
+                mix-&-match shakes. </p>
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/18783/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1582974910">
+
+              <h3>KFC </h3>
+
+
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-box">
+              <img
+                src="https://f.roocdn.com/images/menus/90785/header-image.jpg?width=353&height=177&auto=webp&format=jpg&fit=crop&v=1584362314">
+
+              <h3>Byron</h3>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+
+
+
+    <div class="HomepageFeaturedLandingPageTags-9b72c2a6beb7a6b3">
+      <div class="ccl-d523c73794f30c03 ccl-917a4d5b8cd3a9e3">
+        <h2 class="HomepageFeaturedLandingPageTags-c1a36a7fabe35b74">Need some more options? </h2>
+        <ul class="HomepageFeaturedLandingPageTags-e9048103aff13064">
+          <li><a class="" href="/cuisines/chinese-takeaway">chinese</a></li>
+          <li><a class="" href="/cuisines/italian-takeaway">italian</a></li>
+          <li><a class="" href="/cuisines/thai-takeaway">thai</a></li>
+          <li><a class="" href="/cuisines/pizza-takeaway">pizza</a></li>
+          <li><a class="" href="/cuisines/breakfast-takeaway">breakfast</a></li>
+          <li><a class="" href="/cuisines/mexican-takeaway">mexican</a></li>
+          <li><a class="" href="/cuisines/japanese-takeaway">japanese</a></li>
+          <li><a class="" href="/cuisines/vegetarian-takeaway">vegetarian</a></li>
+          <li><a class="" href="/cuisines/lebanese-takeaway">lebanese</a></li>
+          <li><a class="" href="/cuisines/american-takeaway">american</a></li>
+          <li><a class="" href="/cuisines/greek-takeaway">greek</a></li>
+          <li><a class="" href="/cuisines/halal-takeaway">halal</a></li>
+          <li><a class="" href="/cuisines/sushi-takeaway">sushi</a></li>
+          <li><a class="" href="/cuisines/indian-takeaway">indian</a></li>
+          <li><a class="" href="/cuisines/dessert-takeaway">dessert</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="HomepageMarketingContent-949be60a184d783c">
+      <div class="ccl-d523c73794f30c03 ccl-917a4d5b8cd3a9e3">
+        <h2 class="HomepageMarketingContent-309cdd561cf126dd">Fresh from the kitchen</h2>
+        <ul class="HomepageMarketingContent-88c9235484c03beb">
+          <li class="HomepageMarketingContent-ab30321b35ccd6cd HomepageMarketingContent-953932f1c8eae945">
+            <div class="HomepageMarketingContent-341f5db75b31a5fc">
+              <div class="ccl-45bd106b75353ec9" role="img"
+                style="background-image: url(&quot;https://cwa.roocdn.com/_next/static/business.33b3f32a.jpg&quot;);">
+                <div class="ccl-d5fa9efd412993ea ccl-0220f29e0da451eb"></div>
+              </div>
+            </div>
+            <div class="HomepageMarketingContent-853302eb6c4db5ce">
+              <h3 class="HomepageMarketingContent-75eb63df1ec8a42d">Deliveroo for Business</h3>
+              <p class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-9d0a5327c911d0f3">Hungry
+                clients or hungry staff, our corporate team can help.</p>
+              <p class="HomepageMarketingContent-3a262dfe31902a56"><span class="ccl-67e0c7f3fe50cf69"><a
+                    href="/business" class="ccl-d0484b0360a2b432 ccl-233931c277401e86 ccl-ed9aadeaa18a9f19"
+                    tabindex="0"><span class="ccl-cce251427bbe4ec4">Enquire</span></a></span></p>
+            </div>
+          </li>
+          <li class="HomepageMarketingContent-ab30321b35ccd6cd HomepageMarketingContent-7b71695ac06dab35">
+            <div class="HomepageMarketingContent-341f5db75b31a5fc">
+              <div class="ccl-45bd106b75353ec9" role="img"
+                style="background-image: url(&quot;data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1OTgiIGhlaWdodD0iNTk4IiB2aWV3Qm94PSIwIDAgNTk4IDU5OCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPjxkZWZzPjxwYXRoIGlkPSJhIiBkPSJNMi45MDMgMTQ5LjA3NkMwIDE0MC40NDQgMCAxMzQuODE4IDAgMTE0Ljc2NlY1OS4yMzRjMC0yMC4wNTIgMC0yNS42OCAyLjkwMy0zNC4zMUEzNy4wMiAzNy4wMiAwIDAgMSAyNC45MjQgMi45MDFDMzMuNTU2IDAgMzkuMTgyIDAgNTkuMjM0IDBoNTUuNTMyYzIwLjA1MiAwIDI1LjY3OCAwIDM0LjMxMSAyLjkwMWEzNy4wMjIgMzcuMDIyIDAgMCAxIDIyLjAyIDIyLjAyM0MxNzQgMzMuNTU0IDE3NCAzOS4xODIgMTc0IDU5LjIzNHY1NS41MzJjMCAyMC4wNTIgMCAyNS42NzgtMi45MDMgMzQuMzFhMzcuMDEyIDM3LjAxMiAwIDAgMS0yMi4wMiAyMi4wMjFDMTQwLjQ0NCAxNzQgMTM0LjgxOCAxNzQgMTE0Ljc2NyAxNzRINTkuMjMzYy0yMC4wNTIgMC0yNS42NzggMC0zNC4zMS0yLjkwM2EzNy4wMSAzNy4wMSAwIDAgMS0yMi4wMjEtMjIuMDIxeiIvPjwvZGVmcz48ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPjxwYXRoIGZpbGw9IiNFMjAwNEYiIGQ9Ik0tMSAwaDYwMHY2MDBILTF6Ii8+PHBhdGggZmlsbD0iI0ZGRiIgZD0iTTY3OC44MTMgMzc5LjMzM2wtNzEuNDcxLTIyLjAwMy0yLjgwMSA3MS45MDctMTIuMjE2IDMuNjQ5LTE4LjE0LTg1Ljc2LTQyLjkzNC0xMy4yMi0xNy40MDYgNjcuNzM2LTExLjYyNCAyLjc4LTMuMS04MC40MDgtNDguMjk5LTE0Ljg3My0yOS4wNzkgNjcuMjk1LTguNDc1IDEuNTg4IDIuMzEzLTc0LjI2NC03Mi44NDQtMy43Ni00NS42ODIgMzAuNDQ3LTMuMzE3IDQ4LjM2OCAxOC43ODUgMjcuNjk1TDYyNy4zNiA1MDcuMTU1bDc1LjA1NC0yNS4zNjcgMTQuMDY3LTUxLjA4LTM3LjY2OC01MS4zNzV6bTIzLjM3OCAxMjAuOTQzbC05Ny4xMzUgNDAuNTQtNDUuNTQ2LTM3LjEwOS01Mi43NDUgNy4yNzUtNDIuNDU3LTQ0Ljk5Ny01OS44MTQgMi43NC00NC42NzctMzYuNDQtNzAuMDI2LTYuNzNMMjg3IDQ1NC4yOThsNjMuNzcyIDEwLjc4NSAzOC44NTIgMzMuMjMyIDY1LjE3MiA0Ljk4NiA0NS4yNDIgMzguMDQ1IDQ5LjIyNy0xLjQ4MiA0OS42ODkgMzMuNzIzIDExMy4yODctNDcuNDY1LTEwLjA1LTI1Ljg0NnptLTQwNy42MjgtMjcuOTU4bDEuNzMyIDMxLjM5NSAxMC42NTcgMjAuMzY1IDI3MS41NDQgMTA0LjI4OCA1MC4xMjkgNi44ODUgNDcuNTgyLTE0LjY0NSAyMi44NC0zMC44MiAzLjM4My0zNC4yMzYtNzUuODc0IDMxLjUyOS0zMy44ODQgMy42NzYtMjk4LjExLTExOC40Mzd6TS0zMi4wODUgMTUzLjI1MmwyLjM1NSA0My42NDQgMjY0LjQ1NS01LjIwNS0uMTEzLTQ1Ljg1Mi0yNjYuNjk3IDcuNDEzek0tNTAgMTM3LjU0NWw2Ljg1Mi0zMy4wMSAzMi43MzggOS4zMTEgMzIuMTUtMjAuOTc1IDQ1Ljc0MiAyMC41NDUgMzIuMTQtMjYuMDM1IDUzLjk2NyAxOS4zODIgNDQuOTMxLTM1LjQ1OSAxOS4yNTMgMjUuMDc0LTYwLjQ1MSA0My42NTMtNDkuOTQ1LTIyLjgxNC0zNi42IDIzLjc4LTQxLjQ2NC0xNS45NTMtMzguMjI0IDE3LjU4NUwtNTAgMTM3LjU0NXpNMTYyLjc1Ny0xMEwtNi44MzcgMTQuMzk4bC0zMC4xODcgNzkuNzY0Yy0xLjEzLjE5MyAyNTcuNjA3LTM4Ljc5OCAyNTcuNjA3LTM4Ljc5OEwxNjIuNzU3LTEwek0tNDMuMTQ4IDIxMy45MjZsNDkuMDgzIDcwLjI4IDE3Ny4yNDEtNi4zNzYgNDMuODY3LTczLjA4M2MxLjE0Ny0uMDQ4LTI3MC4xOTEgOS4xNzktMjcwLjE5MSA5LjE3OXoiIG9wYWNpdHk9Ii4zNjMiLz48ZyB0cmFuc2Zvcm09InRyYW5zbGF0ZSgyMTQgMjE2KSI+PG1hc2sgaWQ9ImIiIGZpbGw9IiNmZmYiPjx1c2UgeGxpbms6aHJlZj0iI2EiLz48L21hc2s+PHVzZSBmaWxsPSIjMzMzIiB4bGluazpocmVmPSIjYSIvPjxnIG1hc2s9InVybCgjYikiPjxwYXRoIGZpbGw9IiMwMENDQkMiIGQ9Ik0wIDBoMTc0djE3NEgweiIvPjxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik03Ny40NTEgOTcuOTVjLjYyNC0yLjQgMy41NjQtMi43NTggNS4wMzYtMi43ODRhMy43NTUgMy43NTUgMCAwIDEgMS42MTYuMzMyYzEuMDQuNDcgMi44MDIgMS40NzcgMy4xNTggMy4wMS41MTQgMi4yMDYuMDE5IDQuMDU3LTEuNTYzIDUuNTAzLTEuNTgyIDEuNDQ1LTMuNjcyIDEuMzEzLTUuODg2LjU3Ni0yLjIxNi0uNzMzLTMuMTk5LTMuNDA3LTIuMzYtNi42Mzd6bTIxLjUzMyA0LjM3NmMuMTItLjgyOC40NS0xLjYwOC45Ny0yLjI2NC43MTQtLjkwNCAxLjkwNi0yLjA4IDMuMjgyLTIuMTE4IDIuMjM4LS4wNTggNC4xNjQuOTQ1IDUuMjUyIDIuNzU4IDEuMDkgMS44MTEuNTQ1IDMuODA2LS42MDUgNS44MDItMS4xNSAxLjk5MS00LjE2MyAyLjI1NS03LjEyNy44MDUtMi0uOTc4LTEuOTktMy40NjctMS43NzItNC45ODN6TTM4LjE1IDEzMS42MzdsNzYuNjMgMTYuMjYzIDE3LjUyNi0zOS4zMDIgOC4zNDUtNzkuMjczLTMwLjczOC0zLjIyNS01LjY1MyA1My43MDdMOTQuNjIgMzQuNTNsLTMwLjIzIDYuNDE2IDkuNjM4IDQ1LjI3Ny00My41NzggOS4yNDggNy42OTkgMzYuMTY2eiIvPjwvZz48L2c+PC9nPjwvc3ZnPg==&quot;);">
+                <div class="ccl-d5fa9efd412993ea ccl-0220f29e0da451eb"></div>
+              </div>
+            </div>
+            <div class="HomepageMarketingContent-853302eb6c4db5ce">
+              <h3 class="HomepageMarketingContent-75eb63df1ec8a42d">Have you got the app?</h3>
+              <div class="HomepageMarketingContent-5c4a08ca59a6d758">
+                <p class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-9d0a5327c911d0f3">Get yours
+                  now - available on the iOS and Android app stores!</p>
+              </div>
+              <p class="HomepageMarketingContent-3a262dfe31902a56"><a href="/app?platform=ios" target="_blank"
+                  rel="noopener noreferrer"><span class="ccl-9515d92382999d48"><span
+                      class="ccl-f90a9461a8351bfb ccl-ed1ef21fd5589187">Download Deliveroo in the App
+                      Store</span></span></a><a href="/app?platform=android" target="_blank"
+                  rel="noopener noreferrer"><span class="ccl-9515d92382999d48"><span
+                      class="ccl-f90a9461a8351bfb ccl-4f679b4f054d4574">Get Deliveroo on Google Play</span></span></a>
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <section class="HomepageWorkWithUs-4623fd8ca9d35ea3">
+      <div class="ccl-d523c73794f30c03 ccl-917a4d5b8cd3a9e3">
+        <h3 class="HomepageWorkWithUs-aab39f0c7992bf23">Work with Deliveroo</h3>
+        <div class="HomepageWorkWithUs-51ce66e30fd45e60">
+          <div class="HomepageWorkWithUs-23e544320cde44e6 HomepageWorkWithUs-ff6a5429664a6277">
+            <div class="HomepageWorkWithUs-478f2e1ce03c65bb">
+              <div class="ccl-45bd106b75353ec9" role="img"
+                style="background-image: url(&quot;https://cwa.roocdn.com/_next/static/riders.6856d560.jpg&quot;);">
+                <div class="ccl-d5fa9efd412993ea ccl-0220f29e0da451eb"></div>
+                <div class="ccl-0ca6410c5e153903"><svg class="HomepageWorkWithUs-0651986eb26eed7f" viewBox="0 0 235 25"
+                    preserveAspectRatio="xMinYMax slice">
+                    <polygon points="235 0 235 25 0 25"></polygon>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="HomepageWorkWithUs-9bb2ef37a631394c">
+              <h4 class="HomepageWorkWithUs-8d088e4ff9974728">Riders</h4>
+              <p class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-1f89da61a98d89af ccl-9d0a5327c911d0f3">Become a
+                rider and enjoy the freedom to fit work around your life. Plus great fees, perks and discounts.</p><span
+                class="HomepageWorkWithUs-b2695cb705e84eec"><span class="ccl-67e0c7f3fe50cf69"><a
+                    href="/apply?utm-campaign=ridewithus_lower&amp;utm-medium=organic&amp;utm-source=landingpage"
+                    class="ccl-d0484b0360a2b432 ccl-233931c277401e86 ccl-ed9aadeaa18a9f19" tabindex="0"><span
+                      class="ccl-cce251427bbe4ec4">Ride with us</span></a></span></span>
+            </div>
+          </div>
+          <div class="HomepageWorkWithUs-23e544320cde44e6 HomepageWorkWithUs-a9e3c70344b79353">
+            <div class="HomepageWorkWithUs-478f2e1ce03c65bb">
+              <div class="ccl-45bd106b75353ec9" role="img"
+                style="background-image: url(&quot;https://cwa.roocdn.com/_next/static/restaurants.2a02d1a0.jpg&quot;);">
+                <div class="ccl-d5fa9efd412993ea ccl-0220f29e0da451eb"></div>
+                <div class="ccl-0ca6410c5e153903"><svg class="HomepageWorkWithUs-0651986eb26eed7f" viewBox="0 0 235 25"
+                    preserveAspectRatio="xMinYMax slice">
+                    <polygon points="235 0 235 25 0 25"></polygon>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="HomepageWorkWithUs-9bb2ef37a631394c">
+              <h4 class="HomepageWorkWithUs-8d088e4ff9974728">Restaurants</h4>
+              <p class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-1f89da61a98d89af ccl-9d0a5327c911d0f3">Partner
+                with Deliveroo and reach more customers than ever. We handle delivery, so you can focus on the food.</p>
+              <span class="HomepageWorkWithUs-b2695cb705e84eec"><span class="ccl-67e0c7f3fe50cf69"><a
+                    href="#"
+                    class="ccl-d0484b0360a2b432 ccl-233931c277401e86 ccl-ed9aadeaa18a9f19" tabindex="0"><span
+                      class="ccl-cce251427bbe4ec4">Partner with us</span></a></span></span>
+            </div>
+          </div>
+          <div class="HomepageWorkWithUs-23e544320cde44e6 HomepageWorkWithUs-f4d2f1eecf378671">
+            <div class="HomepageWorkWithUs-478f2e1ce03c65bb">
+              <div class="ccl-45bd106b75353ec9" role="img"
+                style="background-image: url(&quot;https://cwa.roocdn.com/_next/static/team.86d7b512.jpg&quot;);">
+                <div class="ccl-d5fa9efd412993ea ccl-0220f29e0da451eb"></div>
+                <div class="ccl-0ca6410c5e153903"><svg class="HomepageWorkWithUs-0651986eb26eed7f" viewBox="0 0 235 25"
+                    preserveAspectRatio="xMinYMax slice">
+                    <polygon points="235 0 235 25 0 25"></polygon>
+                  </svg></div>
+              </div>
+            </div>
+            <div class="HomepageWorkWithUs-9bb2ef37a631394c">
+              <h4 class="HomepageWorkWithUs-8d088e4ff9974728">Careers</h4>
+              <p class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-1f89da61a98d89af ccl-9d0a5327c911d0f3">Our mission
+                is to change the way people eat. It's ambitious, but so are we. And we need people like you to help us
+                do it.</p><span class="HomepageWorkWithUs-b2695cb705e84eec"><span class="ccl-67e0c7f3fe50cf69"><a
+                    href="#"
+                    class="ccl-d0484b0360a2b432 ccl-233931c277401e86 ccl-ed9aadeaa18a9f19" tabindex="0"><span
+                      class="ccl-cce251427bbe4ec4">Find out more</span></a></span></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-3 col-6">
+            <div class="footer-links">
+              <h4>Discover Deliveroo</h4>
+              <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="#">Terms of service</a></li>
+                <li> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-6">
+            <div class="footer-links">
+              <h4>Legal</h4>
+              <ul>
+                <li> <a href="#">Home</a></li>
+                <li> <a href="#">About us</a></li>
+                <li> <a href="#">Services</a></li>
+                <li> <a href="#">Terms of service</a></li>
+                <li> <a href="#">Privacy policy</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class=" footer-links">
+              <h4>Help</h4>
+              <ul>
+                <li> <a href="#">Web Design</a></li>
+                <li> <a href="#">Web Development</a></li>
+                <li> <a href="#">Product Management</a></li>
+                <li> <a href="#">Marketing</a></li>
+                <li> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-6">
+            <div class=" footer-links">
+              <h4>Take Deliveroo with you</h4>
+              <ul>
+                <li> <a href="#">Web Design</a></li>
+                <li> <a href="#">Web Development</a></li>
+                <li> <a href="#">Product Management</a></li>
+                <li> <a href="#">Marketing</a></li>
+                <li> <a href="#">Graphic Design</a></li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+
+
+</body>
+
+</html>
