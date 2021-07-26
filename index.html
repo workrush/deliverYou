@@ -56,15 +56,16 @@
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #fff;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top:65px;
+	border-radius:5px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 1px 16px;
     text-decoration: none;
     display: block;
 }
@@ -97,22 +98,16 @@
               <ul class="nav-menu">
                 <li>
 
-                  <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
-                            viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049">
-                            <path
-                              d="M4.88398 7.11612L3.11621 8.88389L12.0001 17.7678L20.884 8.88389L19.1162 7.11612L12.0001 14.2322L4.88398 7.11612Z">
-                            </path>
-                          </svg></span><span
+                  
+                  <div class="ccl-87125845a8a1011e">
+                    <button type="button" class="ccl-96b19cfbe8b53b1f">
+                      <span class="ccl-c7e8470a1e905a95">
+                        <span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24" viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049"><path d="M2 13V11H22V13H2ZM2 19V17H22V19H2ZM2 7V5H22V7H2Z"></path></svg></span><span
                           class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span
-                            class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Partner
-                            with us</span></span></button>
-</div>
-<div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
-  </div>
+                            class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Menu</span></span></span></button>
+                  </div>
+                
+				
 
                 <li>
                   <a class="ccl-985cb265c6f6a9c1" href="/login?redirect=%2F"><span class="ccl-c7e8470a1e905a95"><span
@@ -127,10 +122,9 @@
                           up or log in</span></span></span></a>
                 </li>
                 <li>
-                  <div class="ccl-87125845a8a1011e">
-                    <button type="button" class="ccl-96b19cfbe8b53b1f">
-                      <span class="ccl-c7e8470a1e905a95">
-                        <span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
+				
+				<div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24"
                             viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049">
                             <path
                               d="M4.88398 7.11612L3.11621 8.88389L12.0001 17.7678L20.884 8.88389L19.1162 7.11612L12.0001 14.2322L4.88398 7.11612Z">
@@ -138,9 +132,15 @@
                           </svg></span><span
                           class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span
                             class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-b308a2db3758e3e5">Partner
-                            with us</span></span></span></button>
-                  </div>
-                </li>
+                            with us</span></span></button>
+</div>
+<div id="myDropdown" class="dropdown-content">
+    <a class="ccl-8895c83ac1a67a9f" href="/apply?utm-campaign=ridewithus&amp;utm-medium=organic&amp;utm-source=landingpage"><span class="ccl-c7e8470a1e905a95 ccl-2b95b58eee016846"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24" viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049"><path d="M16.5858 3H21V5H17.4142L17.1232 5.29104L18.7563 11.0072C21.1224 11.1401 23 13.1008 23 15.5C23 17.9853 20.9853 20 18.5 20C16.0147 20 14 17.9853 14 15.5C14 13.6268 15.1445 12.0209 16.7724 11.3436L16.4548 10.232L9.90913 14.5958C9.96871 14.8879 10 15.1903 10 15.5C10 17.9853 7.98528 20 5.5 20C3.01472 20 1 17.9853 1 15.5C1 13.0147 3.01472 11 5.5 11C5.62604 11 5.75087 11.0052 5.87428 11.0153L7.38195 8H5V6H9L10 7V8H15.8171L14.8768 4.70896L16.5858 3ZM7.8018 11.6325C8.29065 11.924 8.71956 12.3056 9.06564 12.7544L13.1973 10H8.61802L7.8018 11.6325ZM8 15.5C8 14.1193 6.88071 13 5.5 13C4.11929 13 3 14.1193 3 15.5C3 16.8807 4.11929 18 5.5 18C6.88071 18 8 16.8807 8 15.5ZM18.5 18C19.8807 18 21 16.8807 21 15.5C21 14.1193 19.8807 13 18.5 13C17.1193 13 16 14.1193 16 15.5C16 16.8807 17.1193 18 18.5 18Z"></path></svg></span><span class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-84de633f8a9ceaad">Riders</span></span></span></a>
+  <a class="ccl-8895c83ac1a67a9f" href="https://restaurants.deliveroo.com/?utm-campaign=workwithus&amp;utm-medium=organic&amp;utm-source=landingpage"><span class="ccl-c7e8470a1e905a95 ccl-2b95b58eee016846"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24" viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049"><path d="M15.55 11.8642L13.8012 13.6129L19.749 20.3375L18.2509 21.6625L12.3844 15.0298L5.70707 21.7071L4.29286 20.2929L11.0568 13.5289L9.67929 12.112L6.93679 14.8345L2.99365 8.15994L4.35279 2.93054L12.4737 12.112L14.1358 10.45L12.7929 9.1071L12.8008 7.68498L17.3008 3.28498L18.6991 4.715L14.9222 8.40798L15.55 9.03578L19.2929 5.29288L20.7071 6.7071L16.9642 10.45L17.5079 10.9937L21.3008 7.28498L22.6991 8.715L18.1991 13.115L16.7929 13.1071L15.55 11.8642ZM5.34352 7.06944L5.14324 7.84003L7.32097 11.6642L8.40646 10.6124L5.34352 7.06944Z"></path></svg></span><span class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-84de633f8a9ceaad">Restaurants</span></span></span></a>
+  <a class="ccl-8895c83ac1a67a9f" href="https://careers.deliveroo.co.uk"><span class="ccl-c7e8470a1e905a95 ccl-2b95b58eee016846"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24" viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049"><path d="M17 3H7V6H2V20H22V6H17V3ZM15 6H9V5H15V6ZM4 8H20V11H4V8ZM20 12V18H4V12H9V14H15V12H20ZM10 12H14V13H10V12Z"></path></svg></span><span class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-84de633f8a9ceaad">Careers</span></span></span></a>
+  <a class="ccl-8895c83ac1a67a9f" href="/business"><span class="ccl-c7e8470a1e905a95 ccl-2b95b58eee016846"><span class="ccl-462400680c526774 ccl-ed34b65f78f16205"><svg height="24" width="24" viewBox="0 0 24 24" class="ccl-0f24ac4b87ce1f67 ccl-ed34b65f78f16205 ccl-c738ab1fde928049"><path d="M18 12H12V16H18V12Z"></path><path d="M2 3V21H22V3H2ZM4 5H7V8L6.5 9H4V5ZM8 5H11.5V8L11 9H8.5L8 8V5ZM12.5 8V5H16V8L15.5 9H13L12.5 8ZM17 5H20V9H17.5L17 8V5ZM20 10V19H10V12H6V19H4V10H7L7.5 9L8 10H11.5L12 9L12.5 10H16L16.5 9L17 10H20Z"></path></svg></span><span class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-deab34eb04186352 ccl-d20a5732188988de ccl-6a536dee6972c57c"><span class="ccl-19882374e640f487 ccl-1daa0367dee37c3b ccl-a5fb02a1085896d3 ccl-84de633f8a9ceaad">Deliveroo for Business</span></span></span></a>
+  </div>
+				</li>
               </ul>
             </div>
           </div>
@@ -164,6 +164,7 @@
                 <input type="email" name="email" class="banner-control">
                 <input type="submit" value="Subscribe" class="banner-butn">
               </form>
+			  <p class="ccl-19882374e640f487 ccl-417df52a76832172 ccl-dfaaa1af6c70149c ccl-9d0a5327c911d0f3 ccl-b176b26fc7009752"><span><a href="/login?redirect=/" class="ccl-40bf01260c072d8d">Log in</a> for your recent addresses.</span></p>
             </div>
           </div>
           <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
