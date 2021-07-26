@@ -2548,7 +2548,10 @@ body {
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
-    text-indent: -9999px;
+    font-size:20px;
+	font-weight:bold;
+	color:grey;
+	line-height:33px;
     overflow: hidden;
     background-image: url(assets/img/logo-teal.svg);
     background-color: transparent;
