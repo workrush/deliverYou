@@ -448,9 +448,9 @@ section {
 	height:100%;
 	position:absolute;
 	right:0;
-	background-image:url(https://cwa.roocdn.com/_next/static/campaign.5add8e18.svg);
+	/*background-image:url(https://cwa.roocdn.com/_next/static/campaign.5add8e18.svg);
 	background-position:calc(50% + 300px) calc(30% + 90px);
-	background-repeat:no-repeat;
+	background-repeat:no-repeat;*/
 }
 .hero-camp-banner{
 	
@@ -549,7 +549,7 @@ section {
 @media (max-width: 991px) {
   .hero {
     height: auto;
-    padding: 120px 0 60px 0;
+    padding: 0px 0 60px 0;
   }
   .hero .hero-img {
     text-align: center;
@@ -565,13 +565,23 @@ section {
     text-align: center;
   }
   .hero h1 {
-    font-size: 32px;
+    font-size: 27px;
+	line-height:35px;
   }
   .hero h2 {
     font-size: 24px;
   }
   .hero .hero-img img {
     width: 100%;
+  }
+  .nav-menu{
+	  max-height:50px;
+  }
+  .header-top{
+	  padding:0 7px;
+  }
+  .header{
+	  padding:6px 0;
   }
 }
 
