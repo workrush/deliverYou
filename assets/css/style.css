@@ -66,12 +66,58 @@ section {
   font-weight: 700;
   color: #012970;
 }
+.HomepageWorkWithUs-aab39f0c7992bf23{
+	font-size:30px;
+	padding:10px 0;
+}
 
 @media (max-width: 768px) {
   .section-header p {
     font-size: 28px;
     line-height: 32px;
   }
+  .HomepageMarketingContent-853302eb6c4db5ce{
+	  
+	  padding:10px;
+  }
+  .HomepageMarketingContent-75eb63df1ec8a42d{
+	  font-size:20px;
+	  margin:0 0 6px;
+  }
+  .HomepageMarketingContent-3a262dfe31902a56{
+	  display:none;
+  }
+  .HomepageMarketingContent-309cdd561cf126dd{
+	  font-size:29px;
+	  margin:0 0 17px;
+  }
+  .section-header h2{
+	  font-size:24px;
+  }
+  .services .service-box h3{
+	  font-size:19px;
+	  padding:6px 0;
+  }
+  .services .service-box p{
+	  font-size:14px;
+	  line-height:21px;
+  }
+  .HomepageMarketingContent-309cdd561cf126dd{
+	font-size:26px;
+	margin:0 0 25px;
+}
+.values .box h3{
+	padding:44px 10px;
+}
+.HomepageWorkWithUs-8d088e4ff9974728{
+	font-size:25px;
+}
+.HomepageWorkWithUs-9bb2ef37a631394c{
+	padding:11px;
+}
+.HomepageFeaturedLandingPageTags-e9048103aff13064 li a{
+	font-size:18px;
+}
 }
 
 /*--------------------------------------------------------------
@@ -1037,6 +1083,11 @@ section {
   padding: 0px;
   transition: 0.3s;
   border-radius: 5px;
+}
+.services .service-box img{
+  
+  max-width: 100%;
+  
 }
 
 .services .service-box .icon {
