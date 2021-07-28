@@ -1732,7 +1732,7 @@ section {
 .header {
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 10px 0 20px;
 }
 
 .header.header-scrolled {
@@ -1746,7 +1746,7 @@ section {
 }
 
 .header .logo img {
-  max-height: 40px;
+  max-height: 70px;
   margin-right: 6px;
 }
 
@@ -1755,7 +1755,7 @@ section {
   font-weight: 700;
   letter-spacing: 1px;
   color: #b9b5b3;
-  margin-top: 3px;
+  margin-top: 0px;
 }
 
 /*--------------------------------------------------------------
